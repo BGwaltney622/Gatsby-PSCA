@@ -1,0 +1,125 @@
+body {
+    margin:0;
+    background-color: #aefffd;
+}
+
+p, blockquote {
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.blue-container {
+    background-color: #aefffd;
+    padding-bottom: 5%;
+}
+
+.container {
+    padding: .8em 1.2em;
+    text-align: center; 
+}
+
+section {
+    padding-top: 5%;
+}
+
+.logo{
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+
+.why-psca {
+    position: relative;
+    z-index: 3;
+}
+
+h1 {
+    font-size: 2.2em;
+    padding-top: .5em;
+}
+
+.subhead {
+    font-size: 1.3em;
+    padding-top: .5em;
+}
+
+.cta {
+    margin-top: 2%;
+    margin-bottom: 6%;
+    width: 60%;
+    height: 2.2em;
+    border-radius: 40px;
+    font-size: 1.2em;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cta a:visited {
+    color: #fff;
+}
+.cta a:hover {
+    text-decoration: none;
+    color: #20fffb;
+}
+
+.why-psca, .about-psca {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+.white-container {
+    background-color: #fff;
+    padding: 2.8em 0 3em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+
+.white-container::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.white-container::after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #aefffd;
+    top: -80px;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.white-container p, #carousel-1 {
+    transform: skewY(2deg);
+}
+
+#carousel-1 {
+    width: 80%;
+    margin: 3em auto 0;
+}
+
+@media only screen and (min-width: 650px) {
+
+}
+
+@media only screen and (min-width: 650px) {
+    
+}
+
+@media only screen and (min-width: 650px) {
+    
+}
+
+
+

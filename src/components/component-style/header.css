@@ -1,0 +1,58 @@
+.site-logo {
+    width: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.menu-btn {
+    width: 40px;
+    margin-top: 30%;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-left: 0;
+    text-align: left;
+    background-color: #7f7f7f;
+    z-index: 7;
+    padding-top: 3em;
+}
+
+ul a {
+    color:  #fff;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background-color: #000000;
+}
+
+ul a:hover {
+    background-color: #353535;
+    color: #fff;
+    text-decoration: none;
+}
+
+.exit-btn {
+    margin-bottom: 1em;
+    margin-top: -1em;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.exit-btn img {
+    width: 45px;
+    cursor: pointer;
+}
+
